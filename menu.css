@@ -64,39 +64,73 @@ header{
         and line up horizontally
         and take up 20% of the width of the ul */
     }
+
+    .menu-h li:first-child {
+      border-left: 0.6rem solid #FF0055;
+    }
+    .menu-h li:last-child {
+      border-right: 0.6rem solid #FF0055;
+    }
         .menu-h a {
           display: block;
-          padding: 8px;
+          padding: 5px;
           background-color: #FF4C88;
-          border-color: #CC0044;
+          text-decoration: none;
+          color: #7F002A;
         }
         .menu-h a:link,
         .menu-h a:visited{
+          width: 100%;
+          color: #7F2644;;
             /* style the anchors to fill the entire width of the li
             make sure there is padding around your text */
         }
         .menu-h a:hover,
         .menu-h a:active{
           background-color: #FF0055;
+          text-decoration: overline;
+          text-decoration-style: dotted;
+          text-decoration-color: #7F002A;
+          font-style: italic;
 
         }
 .menu-v{
     width: 20%;
     float:left;
+
 }
     .menu-v li{
+      width: 100%;
+      text-align: center;
+      list-style-type: none;
+      border-left: 0.6rem solid #FF0055;
+      border-right: 0.6rem solid #FF0055;
+}
+    .menu-v li:last-child{
+      border-bottom: 0.6rem solid #FF0055;
         /* style the list items to remove the bullets
         and line up vertically
         and take up 100% of the width of the ul */
     }
-        .menu-v a,
+        .menu-v a {
+          display: block;
+          background-color: #FF4C88;
+          text-decoration: none;
+          letter-spacing: -3px;
+          color: #7F002A;
+          line-height: 4;
+        }
         .menu-v a:link,
         .menu-v a:visited{
+          width: 100%;
+          color: #7F2644;
             /* style the anchors to fill the entire width of the li */
         }
         .menu-v a:hover,
         .menu-v a:active{
-
+          background-color: #FF0055;
+          text-shadow: 0px 0px 10px #ffffff;
+          letter-spacing: 0.5px;
         }
 main{
     width:80%;
